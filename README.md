@@ -21,7 +21,7 @@ conducted at a center frequency of 1.41 GHz. Four representative sub-scenarios a
 - Sequence length: 4096
 - Snapshot duration: 204.8 us
 - Number of measurement routes: 4
-- Valid snapshots per sub-scenario: approximately 200,000
+- Valid snapshots per sub-scenario: 200,000
 
 - ## Channel Models
 
