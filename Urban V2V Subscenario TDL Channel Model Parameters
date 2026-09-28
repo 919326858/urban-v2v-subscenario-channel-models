@@ -1,9 +1,10 @@
-## Urban Canyon LOS Scenario
-
 **Center Frequency:** 1410 MHz  
-**Channel Model:** Tapped Delay Line (TDL)  
+**Channel Model:** Tapped Delay Line (TDL) 
 
+
+## Urban Canyon LOS Scenario
 **Propagation Condition:** Line of Sight (LOS)
+
 | Tap Index | Delay (ns) | Relative Power (dB) | K Factor (dB) | Amplitude Distribution | Doppler Spectrum Model |
 |:---------:|-----------:|--------------------:|--------------:|------------------------|------------------------|
 | 1  | 0.000   | -26.219 | —      | Nakagami (1.562, 4.424e-03) | Double Gaussian |
