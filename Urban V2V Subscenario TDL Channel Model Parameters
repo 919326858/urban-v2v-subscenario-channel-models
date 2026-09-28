@@ -1,1 +1,22 @@
+## Urban Canyon LOS Scenario
 
+**Center Frequency:** 1410 MHz  
+**Channel Model:** Tapped Delay Line (TDL)  
+**Propagation Condition:** Line of Sight (LOS)
+
+| Tap Index | Delay (ns) | Relative Power (dB) | K Factor (dB) | Amplitude Distribution | Doppler Spectrum Model |
+|:---------:|-----------:|--------------------:|--------------:|------------------------|------------------------|
+| 1  | 0.000   | -26.219 | —      | Nakagami (1.562, 4.424e-03) | Double Gaussian |
+| 2  | 51.563  | -19.788 | —      | Rayleigh (0.065)              | Double Gaussian |
+| 3  | 110.056 | -1.890  | —      | Nakagami (0.538, 3.490e-01) | Double Gaussian |
+| 4  | 141.533 | 0.000   | 17.576 | Rician (57.224)              | Double Gaussian |
+| 5  | 193.926 | -8.819  | —      | Rayleigh (0.189)              | Double Gaussian |
+| 6  | 247.849 | -13.475 | —      | Nakagami (1.281, 2.477e-02) | Double Gaussian |
+| 7  | 297.576 | -17.090 | —      | Nakagami (1.258, 1.204e-02) | Double Gaussian |
+| 8  | 345.273 | -19.844 | —      | Nakagami (1.494, 7.001e-03) | Double Gaussian |
+| 9  | 398.436 | -23.512 | —      | Nakagami (1.728, 3.907e-03) | Jakes |
+| 10 | 447.585 | -23.965 | —      | Nakagami (1.426, 4.098e-03) | Jakes |
+| 11 | 550.106 | -24.162 | —      | Nakagami (1.386, 4.444e-03) | Jakes |
+| 12 | 600.030 | -22.500 | —      | Nakagami (1.279, 5.269e-03) | Jakes |
+| 13 | 649.823 | -26.244 | —      | Nakagami (1.868, 3.329e-03) | Gaussian |
+| 14 | 712.009 | -29.836 | —      | Nakagami (2.164, 2.666e-03) | Double Gaussian |
