@@ -2,8 +2,8 @@
 
 **Center Frequency:** 1410 MHz  
 **Channel Model:** Tapped Delay Line (TDL)  
-**Propagation Condition:** Line of Sight (LOS)
 
+**Propagation Condition:** Line of Sight (LOS)
 | Tap Index | Delay (ns) | Relative Power (dB) | K Factor (dB) | Amplitude Distribution | Doppler Spectrum Model |
 |:---------:|-----------:|--------------------:|--------------:|------------------------|------------------------|
 | 1  | 0.000   | -26.219 | —      | Nakagami (1.562, 4.424e-03) | Double Gaussian |
@@ -20,3 +20,78 @@
 | 12 | 600.030 | -22.500 | —      | Nakagami (1.279, 5.269e-03) | Jakes |
 | 13 | 649.823 | -26.244 | —      | Nakagami (1.868, 3.329e-03) | Gaussian |
 | 14 | 712.009 | -29.836 | —      | Nakagami (2.164, 2.666e-03) | Double Gaussian |
+
+
+## Urban Edge Scenario
+**Propagation Condition:** Line of Sight (LOS)
+
+| Tap Index | Delay (ns) | Relative Power (dB) | K Factor (dB) | Amplitude Distribution | Doppler Spectrum Type |
+|:---------:|-----------:|--------------------:|--------------:|------------------------|-----------------------|
+| 1  | 0.000   | -20.491 | —      | Nakagami (0.590, 1.028e-02) | Double Gaussian |
+| 2  | 47.963  | 0.000   | 24.154 | Rician (260.259)              | Gaussian |
+| 3  | 81.940  | -9.521  | —      | Rayleigh (0.226)              | Double Gaussian |
+| 4  | 136.143 | -20.574 | —      | Nakagami (0.729, 1.285e-02) | Double Gaussian |
+| 5  | 192.160 | -23.939 | —      | Nakagami (0.736, 1.021e-02) | Double Gaussian |
+| 6  | 228.211 | -29.301 | —      | Nakagami (1.397, 5.408e-03) | Double Gaussian |
+| 7  | 303.211 | -27.611 | —      | Rayleigh (0.053)              | Double Gaussian |
+| 8  | 336.495 | -23.994 | —      | Rayleigh (0.055)              | Double Gaussian |
+| 9  | 378.211 | -24.793 | —      | Rayleigh (0.065)              | Double Gaussian |
+| 10 | 478.211 | -27.877 | —      | Rayleigh (0.050)              | Jakes |
+
+
+## Urban LOS Scenario
+**Propagation Condition:** Line of Sight (LOS)
+
+| Tap Index | Delay (ns) | Relative Power (dB) | K Factor (dB) | Amplitude Distribution | Doppler Spectrum Type |
+|:---------:|-----------:|--------------------:|--------------:|------------------------|-----------------------|
+| 1  | 0.000    | -17.354 | —      | Nakagami (0.716, 1.166e-02) | Double Gaussian |
+| 2  | 42.681   | 0.000   | 15.865 | Rician (38.596)               | Double Gaussian |
+| 3  | 87.975   | -6.464  | —      | Rayleigh (0.240)               | Double Gaussian |
+| 4  | 137.630  | -5.367  | —      | Rayleigh (0.272)               | Double Gaussian |
+| 5  | 192.932  | -8.175  | —      | Rayleigh (0.198)               | Double Gaussian |
+| 6  | 238.046  | -11.446 | —      | Rayleigh (0.137)               | Double Gaussian |
+| 7  | 289.030  | -13.562 | —      | Rayleigh (0.109)               | Jakes |
+| 8  | 339.086  | -16.285 | —      | Rayleigh (0.083)               | Jakes |
+| 9  | 390.302  | -15.721 | —      | Nakagami (0.666, 1.681e-02) | Double Gaussian |
+| 10 | 437.540  | -18.063 | —      | Rayleigh (0.069)               | Jakes |
+| 11 | 488.069  | -18.844 | —      | Nakagami (1.202, 7.715e-03) | Double Gaussian |
+| 12 | 539.540  | -20.578 | —      | Nakagami (1.244, 5.862e-03) | Double Gaussian |
+| 13 | 588.794  | -20.141 | —      | Rayleigh (0.058)               | Jakes |
+| 14 | 639.768  | -20.240 | —      | Rayleigh (0.058)               | Double Gaussian |
+| 15 | 683.064  | -19.855 | —      | Nakagami (0.617, 7.823e-03) | Double Gaussian |
+| 16 | 740.303  | -24.510 | —      | Nakagami (1.502, 2.924e-03) | Double Gaussian |
+| 17 | 790.686  | -25.222 | —      | Nakagami (1.561, 2.798e-03) | Jakes |
+| 18 | 838.971  | -23.357 | —      | Rayleigh (0.047)               | Double Gaussian |
+| 19 | 887.389  | -25.649 | —      | Rayleigh (0.040)               | Double Gaussian |
+| 20 | 936.535  | -26.135 | —      | Rayleigh (0.038)               | Jakes |
+| 21 | 987.685  | -25.799 | —      | Rayleigh (0.037)               | Jakes |
+| 22 | 1090.871 | -27.789 | —      | Nakagami (1.301, 2.490e-03) | Jakes |
+| 23 | 1134.627 | -26.186 | —      | Nakagami (1.695, 2.404e-03) | Double Gaussian |
+| 24 | 1338.814 | -27.340 | —      | Nakagami (1.248, 2.399e-03) | Jakes |
+
+
+
+## Urban NLOS Scenario
+**Propagation Condition:** Non Line of Sight (NLOS)
+
+| Tap Index | Delay (ns) | Relative Power (dB) | K Factor (dB) | Amplitude Distribution | Doppler Spectrum Type |
+|:---------:|-----------:|--------------------:|--------------:|------------------------|-----------------------|
+| 1  | 0.000    | -13.333 | — | Rayleigh (0.082)              | Double Gaussian |
+| 2  | 182.467  | -2.291  | — | Rayleigh (0.251)              | Double Gaussian |
+| 3  | 341.224  | 0.000   | — | Nakagami (3.155, 2.113e-01) | Double Gaussian |
+| 4  | 547.970  | -0.639  | — | Nakagami (2.345, 1.820e-01) | Double Gaussian |
+| 5  | 749.087  | -2.913  | — | Nakagami (3.114, 1.080e-01) | Jakes |
+| 6  | 943.825  | -2.925  | — | Nakagami (2.197, 1.078e-01) | Double Gaussian |
+| 7  | 1149.699 | -3.825  | — | Nakagami (2.646, 8.768e-02) | Double Gaussian |
+| 8  | 1350.745 | -5.965  | — | Nakagami (3.205, 5.373e-02) | Double Gaussian |
+| 9  | 1547.498 | -7.685  | — | Nakagami (2.635, 3.618e-02) | Jakes |
+| 10 | 1753.303 | -8.471  | — | Nakagami (2.471, 3.024e-02) | Double Gaussian |
+| 11 | 1947.926 | -10.550 | — | Nakagami (2.864, 1.891e-02) | Double Gaussian |
+| 12 | 2146.201 | -13.008 | — | Nakagami (2.442, 1.094e-02) | Jakes |
+| 13 | 2347.244 | -15.482 | — | Nakagami (2.050, 6.470e-03) | Jakes |
+| 14 | 2559.886 | -16.838 | — | Nakagami (1.912, 5.040e-03) | Jakes |
+| 15 | 2739.302 | -17.426 | — | Nakagami (1.612, 4.640e-03) | Double Gaussian |
+| 16 | 2948.667 | -20.835 | — | Nakagami (2.400, 2.460e-03) | Jakes |
+| 17 | 3145.351 | -22.215 | — | Nakagami (2.571, 2.017e-03) | Jakes |
+| 18 | 3337.957 | -23.845 | — | Nakagami (2.640, 1.613e-03) | Jakes |
+| 19 | 3502.134 | -29.606 | — | Nakagami (2.925, 8.473e-04) | Jakes |
