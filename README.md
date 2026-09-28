@@ -30,4 +30,4 @@ algorithm. The resulting channel statistics were used to construct
 scenario-specific tapped-delay-line (TDL) channel models.
 
 The complete model parameters for the four sub-scenarios are provided
-in the `TUrban V2V Subscenario TDL Channel Model Parameters` directory.
+in the `Urban V2V Subscenario TDL Channel Model Parameters` directory.
